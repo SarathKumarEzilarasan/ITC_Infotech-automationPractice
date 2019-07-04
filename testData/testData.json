@@ -53,7 +53,7 @@
     "validTestData": {
         "Should login successfully": [
             {
-                "userName": "ITCtest@gmail.com",
+                "userName": "ITCtest123@gmail.com",
                 "password": "12345"
             }
         ]
@@ -63,7 +63,7 @@
             {
                 "firstName": "sarath",
                 "lastName": "test",
-                "userName": "ITCtest@gmail.com",
+                "userName": "ITCtest123@gmail.com",
                 "password": "12345",
                 "city": "test",
                 "state": "1",
