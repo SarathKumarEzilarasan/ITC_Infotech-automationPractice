@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "jasmine-core": "3.1.0",
+    "jasmine-data-provider": "2.2.0",
+    "jasmine-reporters": "^2.0.0",
+    "jasmine-spec-reporter": "4.2.1",
+    "protractor": "5.3.2",
+    "protractor-jasmine2-screenshot-reporter": "0.5.0"
+  }
+}
