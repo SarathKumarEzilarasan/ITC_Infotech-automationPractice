@@ -1,0 +1,75 @@
+{
+    "InvalidTestData": {
+        "Should display error text when email is empty": [
+            {
+                "userName": " ",
+                "password": " ",
+                "expected": "An email address required."
+            }
+        ],
+        "Should display error text when email is invalid": [
+            {
+                "userName": "sarathITC@@gmail.com",
+                "password": "123",
+                "expected": "Invalid email address."
+            }
+        ],
+        "Should display error text when password is empty": [
+            {
+                "userName": "sarath@gmail.com",
+                "password": " ",
+                "expected": "Password is required."
+            }
+        ],
+        "Should display error text when password is invalid": [
+            {
+                "userName": "sarath@gmail.com",
+                "password": "123",
+                "expected": "Invalid password."
+            }
+        ]
+    },
+    "InvalidProductData": {
+        "Should throw error when entering invalid product detail": [
+            {
+                "searchData":"dressss",
+                "expected":"No results were found for your search"
+            }
+        ]
+    },
+    "validProductData": {
+        "Should display records when entering valid product detail": [
+            {
+                "searchData":"dress",
+                "productIndex":"1",
+                "quantity":"00",
+                "expect":"Product successfully added to your shopping cart",
+                "textIndex":0,
+                "successText":"Your order on My Store is complete.",
+                "failText":"No results were found for your search"
+            }
+        ]
+    },
+    "validTestData": {
+        "Should login successfully": [
+            {
+                "userName": "ITCtest@gmail.com",
+                "password": "12345"
+            }
+        ]
+    },
+    "validTestDataSignUp": {
+        "Should signUp successfully": [
+            {
+                "firstName": "sarath",
+                "lastName": "test",
+                "userName": "ITCtest@gmail.com",
+                "password": "12345",
+                "city": "test",
+                "state": "1",
+                "postalCode": "00000",
+                "mobileNo": "123456789"
+            }
+        ]
+    }
+}
